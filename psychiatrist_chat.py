@@ -3,7 +3,7 @@ from together import Together
 import os
 
 # Set your API key
-os.environ["TOGETHER_API_KEY"] = st.secrets["TOGETHER_API_KEY"]
+os.environ["TOGETHER_API_KEY"] = "888fb84e1b638788f3b6e59865697fa5e52ade7a091e1a1777aa883eb92ddbba"
 client = Together()
 
 # Initialize Streamlit page
